@@ -19,7 +19,7 @@ const workSans = Work_Sans({
   display: "swap",
 })
 
-const locales = ["en", "es", "fr", "de", "zh", "ar", "hi"]
+const locales = ["en", "es", "fr", "de", "zh", "ar", "hi", "uz", "ru"]
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }))
