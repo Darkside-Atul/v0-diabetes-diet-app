@@ -1,0 +1,108 @@
+{
+  "common": {
+    "signIn": "Iniciar Sesión",
+    "getStarted": "Comenzar",
+    "learnMore": "Saber Más",
+    "startFree": "Comenzar Gratis Hoy",
+    "features": "Características",
+    "howItWorks": "Cómo Funciona",
+    "about": "Acerca de",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "contact": "Contacto",
+    "loading": "Cargando...",
+    "language": "Idioma"
+  },
+  "homepage": {
+    "title": "Diacare - Gestión de Dieta para Diabetes",
+    "description": "Aplicación de gestión de dieta para diabetes impulsada por IA que crea recetas personalizadas basadas en tus restricciones dietéticas y necesidades calóricas.",
+    "hero": {
+      "badge": "Gestión de Diabetes con IA",
+      "title": "Toma Control de tu",
+      "titleHighlight": "Dieta para Diabetes",
+      "subtitle": "Obtén recetas personalizadas generadas por IA adaptadas a tus restricciones dietéticas, necesidades calóricas y objetivos de manejo de diabetes. Haz que comer saludable sea simple y delicioso.",
+      "startJourney": "Comienza tu Viaje",
+      "freeStart": "Gratis para comenzar • No se requiere tarjeta de crédito • Confiado por miles"
+    },
+    "features": {
+      "title": "Todo lo que Necesitas para una Mejor Salud",
+      "subtitle": "Herramientas integrales diseñadas específicamente para el manejo de diabetes y vida saludable",
+      "aiRecipes": {
+        "title": "Generación de Recetas con IA",
+        "description": "Obtén recetas personalizadas basadas en tus restricciones dietéticas, preferencias y objetivos calóricos"
+      },
+      "mealPlanning": {
+        "title": "Planificación de Comidas",
+        "description": "Planifica tus comidas con anticipación con nuestro sistema inteligente que considera tu estilo de vida"
+      },
+      "diabetesSafe": {
+        "title": "Seguro para Diabetes",
+        "description": "Todas las recetas están cuidadosamente elaboradas para apoyar niveles saludables de azúcar en sangre"
+      },
+      "dietaryRestrictions": {
+        "title": "Restricciones Dietéticas",
+        "description": "Soporte para vegetarianos, veganos, sin gluten y otras necesidades dietéticas sin comprometer el sabor"
+      },
+      "smartNutrition": {
+        "title": "Nutrición Inteligente",
+        "description": "Conteo automático de calorías y análisis nutricional para mantenerte en el camino hacia tus objetivos"
+      },
+      "healthTracking": {
+        "title": "Seguimiento de Salud",
+        "description": "Monitorea tu progreso y ve cómo tus elecciones dietéticas impactan tu salud y bienestar general"
+      }
+    },
+    "howItWorks": {
+      "title": "Pasos Simples hacia una Mejor Salud",
+      "subtitle": "Comenzar con Diacare es fácil y toma solo unos minutos",
+      "step1": {
+        "title": "Configura tu Perfil",
+        "description": "Cuéntanos sobre tus restricciones dietéticas, objetivos calóricos y preferencias de salud"
+      },
+      "step2": {
+        "title": "Obtén Recetas con IA",
+        "description": "Nuestra IA genera recetas personalizadas que coinciden exactamente con tus necesidades y preferencias"
+      },
+      "step3": {
+        "title": "Cocina y Rastrea",
+        "description": "Sigue las recetas y rastrea tu progreso mientras construyes hábitos alimentarios más saludables"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Transformar tu Manejo de Diabetes?",
+      "subtitle": "Únete a miles de personas que ya están viviendo vidas más saludables con el enfoque personalizado de Diacare para la nutrición amigable con la diabetes.",
+      "noCommitment": "Sin compromiso requerido • Cancela en cualquier momento • Tus datos de salud permanecen privados"
+    },
+    "footer": {
+      "copyright": "© 2024 Diacare. Todos los derechos reservados. Hecho con cuidado para tu salud."
+    }
+  },
+  "dashboard": {
+    "welcome": "¡Bienvenido de vuelta!",
+    "quickActions": "Acciones Rápidas",
+    "generateRecipe": "Generar Receta",
+    "planMeals": "Planificar Comidas",
+    "browseRecipes": "Explorar Recetas",
+    "recentActivity": "Actividad Reciente",
+    "healthMetrics": "Métricas de Salud",
+    "bloodSugar": "Azúcar en Sangre",
+    "calories": "Calorías",
+    "carbs": "Carbohidratos"
+  },
+  "recipes": {
+    "generate": {
+      "title": "Genera tu Receta Perfecta",
+      "subtitle": "Cuéntanos tus preferencias y crearemos una receta personalizada amigable con la diabetes solo para ti",
+      "dietaryRestrictions": "Restricciones Dietéticas",
+      "selectRestrictions": "Selecciona tus restricciones dietéticas",
+      "calorieGoal": "Objetivo Calórico",
+      "calorieRange": "Selecciona tu rango calórico objetivo",
+      "cuisinePreference": "Preferencia de Cocina",
+      "selectCuisine": "Elige tu cocina preferida",
+      "additionalNotes": "Notas Adicionales",
+      "notesPlaceholder": "¿Algún ingrediente específico que ames o quieras evitar?",
+      "generateButton": "Generar Receta",
+      "generating": "Generando tu receta..."
+    }
+  }
+}

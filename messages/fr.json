@@ -1,0 +1,108 @@
+{
+  "common": {
+    "signIn": "Se Connecter",
+    "getStarted": "Commencer",
+    "learnMore": "En Savoir Plus",
+    "startFree": "Commencer Gratuitement",
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment Ça Marche",
+    "about": "À Propos",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfService": "Conditions de Service",
+    "contact": "Contact",
+    "loading": "Chargement...",
+    "language": "Langue"
+  },
+  "homepage": {
+    "title": "Diacare - Gestion du Régime Diabétique",
+    "description": "Application de gestion du régime diabétique alimentée par l'IA qui crée des recettes personnalisées basées sur vos restrictions alimentaires et besoins caloriques.",
+    "hero": {
+      "badge": "Gestion du Diabète par IA",
+      "title": "Prenez le Contrôle de Votre",
+      "titleHighlight": "Régime Diabétique",
+      "subtitle": "Obtenez des recettes personnalisées générées par l'IA adaptées à vos restrictions alimentaires, besoins caloriques et objectifs de gestion du diabète. Rendez l'alimentation saine simple et délicieuse.",
+      "startJourney": "Commencez Votre Voyage",
+      "freeStart": "Gratuit pour commencer • Aucune carte de crédit requise • Approuvé par des milliers"
+    },
+    "features": {
+      "title": "Tout ce dont Vous Avez Besoin pour une Meilleure Santé",
+      "subtitle": "Outils complets conçus spécifiquement pour la gestion du diabète et une vie saine",
+      "aiRecipes": {
+        "title": "Génération de Recettes par IA",
+        "description": "Obtenez des recettes personnalisées basées sur vos restrictions alimentaires, préférences et objectifs caloriques"
+      },
+      "mealPlanning": {
+        "title": "Planification des Repas",
+        "description": "Planifiez vos repas à l'avance avec notre système intelligent qui considère votre style de vie"
+      },
+      "diabetesSafe": {
+        "title": "Sûr pour le Diabète",
+        "description": "Toutes les recettes sont soigneusement élaborées pour soutenir des niveaux de sucre dans le sang sains"
+      },
+      "dietaryRestrictions": {
+        "title": "Restrictions Alimentaires",
+        "description": "Support pour végétariens, végétaliens, sans gluten et autres besoins alimentaires sans compromettre le goût"
+      },
+      "smartNutrition": {
+        "title": "Nutrition Intelligente",
+        "description": "Comptage automatique des calories et analyse nutritionnelle pour vous maintenir sur la voie de vos objectifs"
+      },
+      "healthTracking": {
+        "title": "Suivi de Santé",
+        "description": "Surveillez vos progrès et voyez comment vos choix alimentaires impactent votre santé et bien-être général"
+      }
+    },
+    "howItWorks": {
+      "title": "Étapes Simples vers une Meilleure Santé",
+      "subtitle": "Commencer avec Diacare est facile et ne prend que quelques minutes",
+      "step1": {
+        "title": "Configurez Votre Profil",
+        "description": "Parlez-nous de vos restrictions alimentaires, objectifs caloriques et préférences de santé"
+      },
+      "step2": {
+        "title": "Obtenez des Recettes IA",
+        "description": "Notre IA génère des recettes personnalisées qui correspondent exactement à vos besoins et préférences"
+      },
+      "step3": {
+        "title": "Cuisinez et Suivez",
+        "description": "Suivez les recettes et suivez vos progrès en développant des habitudes alimentaires plus saines"
+      }
+    },
+    "cta": {
+      "title": "Prêt à Transformer Votre Gestion du Diabète?",
+      "subtitle": "Rejoignez des milliers de personnes qui vivent déjà des vies plus saines avec l'approche personnalisée de Diacare pour la nutrition adaptée au diabète.",
+      "noCommitment": "Aucun engagement requis • Annulez à tout moment • Vos données de santé restent privées"
+    },
+    "footer": {
+      "copyright": "© 2024 Diacare. Tous droits réservés. Fait avec soin pour votre santé."
+    }
+  },
+  "dashboard": {
+    "welcome": "Bon retour!",
+    "quickActions": "Actions Rapides",
+    "generateRecipe": "Générer une Recette",
+    "planMeals": "Planifier les Repas",
+    "browseRecipes": "Parcourir les Recettes",
+    "recentActivity": "Activité Récente",
+    "healthMetrics": "Métriques de Santé",
+    "bloodSugar": "Glycémie",
+    "calories": "Calories",
+    "carbs": "Glucides"
+  },
+  "recipes": {
+    "generate": {
+      "title": "Générez Votre Recette Parfaite",
+      "subtitle": "Dites-nous vos préférences et nous créerons une recette personnalisée adaptée au diabète juste pour vous",
+      "dietaryRestrictions": "Restrictions Alimentaires",
+      "selectRestrictions": "Sélectionnez vos restrictions alimentaires",
+      "calorieGoal": "Objectif Calorique",
+      "calorieRange": "Sélectionnez votre plage calorique cible",
+      "cuisinePreference": "Préférence Culinaire",
+      "selectCuisine": "Choisissez votre cuisine préférée",
+      "additionalNotes": "Notes Supplémentaires",
+      "notesPlaceholder": "Des ingrédients spécifiques que vous aimez ou voulez éviter?",
+      "generateButton": "Générer une Recette",
+      "generating": "Génération de votre recette..."
+    }
+  }
+}

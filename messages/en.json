@@ -1,0 +1,108 @@
+{
+  "common": {
+    "signIn": "Sign In",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "startFree": "Start Free Today",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "about": "About",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "contact": "Contact",
+    "loading": "Loading...",
+    "language": "Language"
+  },
+  "homepage": {
+    "title": "Diacare - Diabetes Diet Management",
+    "description": "AI-powered diabetes diet management app that creates personalized recipes based on your dietary restrictions and calorie needs.",
+    "hero": {
+      "badge": "AI-Powered Diabetes Management",
+      "title": "Take Control of Your",
+      "titleHighlight": "Diabetes Diet",
+      "subtitle": "Get personalized, AI-generated recipes tailored to your dietary restrictions, calorie needs, and diabetes management goals. Make healthy eating simple and delicious.",
+      "startJourney": "Start Your Journey",
+      "freeStart": "Free to start • No credit card required • Trusted by thousands"
+    },
+    "features": {
+      "title": "Everything You Need for Better Health",
+      "subtitle": "Comprehensive tools designed specifically for diabetes management and healthy living",
+      "aiRecipes": {
+        "title": "AI Recipe Generation",
+        "description": "Get personalized recipes based on your dietary restrictions, preferences, and calorie goals"
+      },
+      "mealPlanning": {
+        "title": "Meal Planning",
+        "description": "Plan your meals in advance with our intelligent scheduling system that considers your lifestyle"
+      },
+      "diabetesSafe": {
+        "title": "Diabetes-Safe",
+        "description": "All recipes are carefully crafted to support healthy blood sugar levels and diabetes management"
+      },
+      "dietaryRestrictions": {
+        "title": "Dietary Restrictions",
+        "description": "Support for vegetarian, vegan, gluten-free, and other dietary needs without compromising taste"
+      },
+      "smartNutrition": {
+        "title": "Smart Nutrition",
+        "description": "Automatic calorie counting and nutritional analysis to keep you on track with your health goals"
+      },
+      "healthTracking": {
+        "title": "Health Tracking",
+        "description": "Monitor your progress and see how your dietary choices impact your overall health and wellbeing"
+      }
+    },
+    "howItWorks": {
+      "title": "Simple Steps to Better Health",
+      "subtitle": "Getting started with Diacare is easy and takes just a few minutes",
+      "step1": {
+        "title": "Set Your Profile",
+        "description": "Tell us about your dietary restrictions, calorie goals, and health preferences"
+      },
+      "step2": {
+        "title": "Get AI Recipes",
+        "description": "Our AI generates personalized recipes that match your exact needs and taste preferences"
+      },
+      "step3": {
+        "title": "Cook & Track",
+        "description": "Follow the recipes and track your progress as you build healthier eating habits"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Diabetes Management?",
+      "subtitle": "Join thousands of people who are already living healthier lives with Diacare's personalized approach to diabetes-friendly nutrition.",
+      "noCommitment": "No commitment required • Cancel anytime • Your health data stays private"
+    },
+    "footer": {
+      "copyright": "© 2024 Diacare. All rights reserved. Made with care for your health."
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back!",
+    "quickActions": "Quick Actions",
+    "generateRecipe": "Generate Recipe",
+    "planMeals": "Plan Meals",
+    "browseRecipes": "Browse Recipes",
+    "recentActivity": "Recent Activity",
+    "healthMetrics": "Health Metrics",
+    "bloodSugar": "Blood Sugar",
+    "calories": "Calories",
+    "carbs": "Carbs"
+  },
+  "recipes": {
+    "generate": {
+      "title": "Generate Your Perfect Recipe",
+      "subtitle": "Tell us your preferences and we'll create a personalized diabetes-friendly recipe just for you",
+      "dietaryRestrictions": "Dietary Restrictions",
+      "selectRestrictions": "Select your dietary restrictions",
+      "calorieGoal": "Calorie Goal",
+      "calorieRange": "Select your target calorie range",
+      "cuisinePreference": "Cuisine Preference",
+      "selectCuisine": "Choose your preferred cuisine",
+      "additionalNotes": "Additional Notes",
+      "notesPlaceholder": "Any specific ingredients you love or want to avoid?",
+      "generateButton": "Generate Recipe",
+      "generating": "Generating your recipe..."
+    }
+  }
+}

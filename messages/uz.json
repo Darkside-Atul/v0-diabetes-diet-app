@@ -1,0 +1,75 @@
+{
+  "homepage": {
+    "title": "DiaCare - Diabet Dietasi Ilovasi",
+    "subtitle": "Diabetni boshqarish uchun shaxsiy retseptlar va ovqatlanish rejalarini yarating",
+    "description": "Diabetingizni samarali boshqarish uchun mo'ljallangan kuchli vosita. Shaxsiy retseptlar oling, ovqatlanishni kuzating va sog'lom turmush tarzini saqlang.",
+    "getStarted": "Boshlash",
+    "learnMore": "Batafsil",
+    "features": {
+      "title": "Xususiyatlar",
+      "personalizedRecipes": {
+        "title": "Shaxsiy Retseptlar",
+        "description": "Sizning diabet turingiz va afzalliklaringizga mos retseptlar oling"
+      },
+      "nutritionTracking": {
+        "title": "Ovqatlanishni Kuzatish",
+        "description": "Karbohidrat, oqsil va yog'larni osonlik bilan kuzating"
+      },
+      "mealPlanning": {
+        "title": "Ovqat Rejalashtirish",
+        "description": "Haftalik ovqat rejalarini yarating va qon shakarini barqaror saqlang"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Boshqaruv Paneli",
+    "welcome": "Xush kelibsiz",
+    "todaysMeals": "Bugungi Ovqatlar",
+    "nutritionOverview": "Ovqatlanish Ko'rinishi",
+    "recentRecipes": "So'nggi Retseptlar",
+    "quickActions": "Tezkor Harakatlar",
+    "generateRecipe": "Retsept Yaratish",
+    "logMeal": "Ovqatni Yozish",
+    "viewProgress": "Taraqqiyotni Ko'rish"
+  },
+  "recipeGeneration": {
+    "title": "Retsept Yaratish",
+    "subtitle": "Sizning ehtiyojlaringizga mos diabetik retsept yarating",
+    "form": {
+      "diabetesType": "Diabet Turi",
+      "type1": "1-tur",
+      "type2": "2-tur",
+      "gestational": "Homiladorlik diabeti",
+      "dietaryRestrictions": "Ovqatlanish Cheklovlari",
+      "allergies": "Allergiyalar",
+      "preferences": "Afzalliklar",
+      "mealType": "Ovqat Turi",
+      "breakfast": "Nonushta",
+      "lunch": "Tushlik",
+      "dinner": "Kechki ovqat",
+      "snack": "Gazak",
+      "cuisineType": "Oshxona Turi",
+      "italian": "Italyan",
+      "mexican": "Meksikan",
+      "asian": "Osiyo",
+      "mediterranean": "O'rta er dengizi",
+      "american": "Amerika",
+      "indian": "Hind",
+      "generate": "Retsept Yaratish",
+      "generating": "Yaratilmoqda..."
+    }
+  },
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik",
+    "success": "Muvaffaqiyat",
+    "cancel": "Bekor qilish",
+    "save": "Saqlash",
+    "edit": "Tahrirlash",
+    "delete": "O'chirish",
+    "back": "Orqaga",
+    "next": "Keyingi",
+    "previous": "Oldingi",
+    "close": "Yopish"
+  }
+}
