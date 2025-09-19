@@ -1,11 +1,17 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 import { Heart, ChefHat, Calendar, TrendingUp, Target, Clock, Plus, BookOpen, Activity } from "lucide-react"
+import { LanguageSelector } from "@/components/language-selector"
+import { useLanguage } from "@/contexts/language-context"
 import Link from "next/link"
 
 export default function DashboardPage() {
+  const { t } = useLanguage()
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -13,23 +19,24 @@ export default function DashboardPage() {
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Heart className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-serif font-bold text-foreground">Diacare</h1>
+            <h1 className="text-2xl font-serif font-bold text-foreground">{t("home.title")}</h1>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <Link href="/dashboard" className="text-primary font-medium">
-              Dashboard
+              {t("nav.dashboard")}
             </Link>
             <Link href="/recipes" className="text-muted-foreground hover:text-foreground transition-colors">
-              Recipes
+              {t("nav.recipes")}
             </Link>
             <Link href="/meal-plan" className="text-muted-foreground hover:text-foreground transition-colors">
-              Meal Plan
+              {t("nav.mealPlan")}
             </Link>
             <Link href="/profile" className="text-muted-foreground hover:text-foreground transition-colors">
-              Profile
+              {t("nav.profile")}
             </Link>
           </nav>
           <div className="flex items-center gap-3">
+            <LanguageSelector />
             <Button variant="outline" size="sm">
               Settings
             </Button>
@@ -43,7 +50,7 @@ export default function DashboardPage() {
       <div className="container mx-auto px-4 py-8">
         {/* Welcome Section */}
         <div className="mb-8">
-          <h1 className="text-3xl font-serif font-bold mb-2">Welcome back, John!</h1>
+          <h1 className="text-3xl font-serif font-bold mb-2">{t("dashboard.welcome")}</h1>
           <p className="text-muted-foreground text-lg">Here's your health overview for today. You're doing great!</p>
         </div>
 
@@ -53,7 +60,7 @@ export default function DashboardPage() {
             <Button size="lg" className="h-16 text-left justify-start gap-3 w-full">
               <Plus className="h-5 w-5" />
               <div>
-                <div className="font-semibold">Generate Recipe</div>
+                <div className="font-semibold">{t("dashboard.generateRecipe")}</div>
                 <div className="text-sm opacity-90">Get AI-powered suggestions</div>
               </div>
             </Button>
@@ -103,7 +110,7 @@ export default function DashboardPage() {
 
                   <div className="text-center">
                     <div className="text-2xl font-bold text-secondary mb-1">142</div>
-                    <div className="text-sm text-muted-foreground mb-2">Avg blood sugar</div>
+                    <div className="text-sm text-muted-foreground mb-2">{t("dashboard.bloodSugar")}</div>
                     <Badge variant="secondary" className="text-xs">
                       Normal range
                     </Badge>
@@ -268,7 +275,7 @@ export default function DashboardPage() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Clock className="h-5 w-5" />
-                  Upcoming Meals
+                  {t("dashboard.todaysMeals")}
                 </CardTitle>
               </CardHeader>
               <CardContent>

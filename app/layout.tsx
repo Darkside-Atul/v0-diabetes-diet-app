@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Inter, Work_Sans } from "next/font/google"
 import { Suspense } from "react"
 import "./globals.css"
+import { LanguageProvider } from "@/contexts/language-context"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,7 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${inter.variable} ${workSans.variable} antialiased`}>
-        <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        <LanguageProvider>
+          <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        </LanguageProvider>
       </body>
     </html>
   )

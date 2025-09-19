@@ -1,10 +1,9 @@
 "use client"
 
-import { useLocale } from "next-intl"
-import { useRouter, usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Globe } from "lucide-react"
+import { useLanguage } from "@/contexts/language-context"
 
 const languages = [
   { code: "en", name: "English", flag: "🇺🇸" },
@@ -19,17 +18,12 @@ const languages = [
 ]
 
 export function LanguageSelector() {
-  const locale = useLocale()
-  const router = useRouter()
-  const pathname = usePathname()
+  const { language, setLanguage } = useLanguage()
 
-  const currentLanguage = languages.find((lang) => lang.code === locale)
+  const currentLanguage = languages.find((lang) => lang.code === language)
 
-  const handleLanguageChange = (newLocale: string) => {
-    // Remove the current locale from the pathname
-    const pathWithoutLocale = pathname.replace(`/${locale}`, "") || "/"
-    // Navigate to the new locale
-    router.push(`/${newLocale}${pathWithoutLocale}`)
+  const handleLanguageChange = (newLanguage: string) => {
+    setLanguage(newLanguage as any)
   }
 
   return (
@@ -44,14 +38,14 @@ export function LanguageSelector() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-48">
-        {languages.map((language) => (
+        {languages.map((lang) => (
           <DropdownMenuItem
-            key={language.code}
-            onClick={() => handleLanguageChange(language.code)}
-            className={`flex items-center gap-2 cursor-pointer ${locale === language.code ? "bg-accent" : ""}`}
+            key={lang.code}
+            onClick={() => handleLanguageChange(lang.code)}
+            className={`flex items-center gap-2 cursor-pointer ${language === lang.code ? "bg-accent" : ""}`}
           >
-            <span className="text-lg">{language.flag}</span>
-            <span>{language.name}</span>
+            <span className="text-lg">{lang.flag}</span>
+            <span>{lang.name}</span>
           </DropdownMenuItem>
         ))}
       </DropdownMenuContent>
